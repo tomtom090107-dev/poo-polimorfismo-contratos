@@ -15,7 +15,7 @@ public:
     }
     bool emAlerta() const override {
         // TODO: substituir o marcador pelo comportamento contratado.
-        return false;
+        return valor_ < 20;
     }
 };
 
@@ -32,7 +32,7 @@ public:
     }
     bool emAlerta() const override {
         // TODO: substituir o marcador pelo comportamento contratado.
-        return false;
+        return valor_ > 45;
     }
 };
 
